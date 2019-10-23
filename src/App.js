@@ -19,9 +19,6 @@ const App = (props) => {
     props.buyItem(item)
   };
 
-  console.log(props.car)
-  console.log(props.car.features)
-
   return (
     <div className="boxes">
       <div className="box">
